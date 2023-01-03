@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="blog-title">This is my personal blog.</h1>
+    </header>
+    <main>
+        <section>
+            <article class="blog">
+                <h2 id="first-title">Blog-1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, sed a ad quo repellendus perferendis
+                    expedita cum itaque beatae voluptate velit repudiandae quibusdam atque deleniti quos veritatis
+                    facilis tenetur? Accusamus!</p>
+            </article>
+        
+            <article class="blog">
+                <h2 id="second-title">Blog-2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quod impedit dolorem autem
+                    voluptas cupiditate hic. Quos iusto accusamus, amet ab magni aut, consequuntur saepe possimus,
+                    itaque explicabo odit laudantium.</p>
+            </article>
+        
+            <article class="blog">
+                <h2 id="third-title">Blog-3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facilis similique voluptatum unde
+                    atque nam possimus et cum voluptatem a, ratione nostrum esse nemo dolor? Asperiores possimus
+                    repellat corporis? Ad!</p>
+            </article>
+        
+            <article class="blog">
+                <h2 id="fourth-title">Blog-4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facilis similique voluptatum unde
+                    atque nam possimus et cum voluptatem a, ratione nostrum esse nemo dolor? Asperiores possimus
+                    repellat corporis? Ad!</p>
+            </article>
+        </section>
+    </main>
+    <script>
+        // const blogInformation = document.getElementsByTagName('h2');
+        // // console.log(blogInformation);
+        // for (const h3 of blogInformation) {
+        //     console.log(h3.innerText);
+        // }
+
+        // explore getElementById
+        const blogTitle = document.getElementById('blog-title');
+        blogTitle.style.color = 'blue';
+        blogTitle.style.textAlign = 'center';
+        const firstTitle = document.getElementById('first-title');
+        firstTitle.style.color = 'magenta';
+        firstTitle.innerText = 'This is my first blog.';
+        const secondTitle = document.getElementById('second-title');
+        secondTitle.style.color='red';
+        secondTitle.innerText= 'This is my second blog.';
+        const thirdTitle = document.getElementById('third-title');
+        thirdTitle.style.color='green';
+        thirdTitle.innerText= 'This is my third blog.';
+        const fourthTitle = document.getElementById('fourth-title');
+        fourthTitle.style.color='yellow';
+        fourthTitle.innerText= 'This is my fourth blog.';
+
+
+        // explore getElementsByClassName
+        const blogs = document.getElementsByClassName('blog');
+        for (const blog of blogs){
+            blog.style.border = '3px solid black';
+            blog.style.margin = '5px';
+            blog.style.borderRadius = '5px';
+            blog.style.padding = '5px';
+        }
+        // blogs.style.margin= '2px solid black';
+    </script>
+</body>
+
+</html>
