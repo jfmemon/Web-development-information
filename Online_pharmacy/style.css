@@ -1,0 +1,47 @@
+.signup{
+    width: 120px;
+    height: auto;
+    border: none;
+    background-color: #76D7C4;
+}
+
+.swip-wrapper{
+    display: block;
+    width: 100%;
+    overflow-x: scroll ;
+}
+
+.covid19-swip-wrapper{
+    display: block;
+    width: 100%;
+    overflow-wrap: normal;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    
+    #header-bottom{
+      font-size: 9px;
+      align-items: center;
+    }
+
+    .index-main, .others-main{
+        margin-top: 65px;
+    }
+  }
+
+
+@media only screen and (min-width: 577px) and (max-width:768px)  {
+    
+    #header-bottom{
+      font-size: 15px;
+      align-items: center;
+    }
+
+    .index-main, .others-main{
+        margin-top: 65px;
+    }
+  }
+
+
