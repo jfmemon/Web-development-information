@@ -1,0 +1,108 @@
+body{
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.color-text{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+.half-width img{
+    width: 82%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(240, 74, 74),rgb(221, 175, 175));
+    padding: 10px 40px;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.first-portion{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.second-portion{
+    padding-top: 5%;
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 5%;
+}
+
+.second-half-width img{
+    width: 98%;
+    padding-bottom: 8%;
+    padding-left: 7%;
+}
+
+.second-half-width{
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 10%;
+}
+
+.third-portion{
+    padding-bottom: 8%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.last-container{
+    display: flex;
+}
+
+.third-half{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-left: 6px solid crimson;
+}
+
+.third-half-last{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-left: 6px solid rgb(80, 20, 220);
+}
+
+.experience{
+    padding-left: 5%;
+}
+
+.second-text-color{
+    color: orange;
+}
+
+footer p{
+    text-align: center;
+}
