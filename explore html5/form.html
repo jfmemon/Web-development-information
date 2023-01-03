@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="semantic.html">Semantic</a></li>
+            <li><a href="table.html">Table</a></li>
+        </ul>
+    </nav>
+    <form action="">
+        <p>Name: <input type="text" placeholder="Enter your name"></p>
+        <p>Email: <input type="email" placeholder="Enter your email"></p>
+
+        <fieldset>
+            <legend>Choose your pitha</legend>
+            <label for="chitoy">
+                <p><input type="radio" name="pitha" id="chitoy">Chitoy-pitha</p>
+            </label>
+            <label for="vapa">
+                <p><input type="radio" name="pitha" id="vapa">Vapa-pitha</p>
+            </label>
+            <label for="tell">
+                <p><input type="radio" name="pitha" id="tell">Tell-pitha</p>
+            </label>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Select vorta</legend>
+            <label for="alu">
+                <p><input type="checkbox" name="vorta" id="alu">Alu-vorta</p>
+            </label>
+            <label for="shutki">
+                <p><input type="checkbox" name="vorta" id="shutki">Shutki-vorta</p>
+            </label>
+            <label for="mach">
+                <p><input type="checkbox" name="vorta" id="mach">Mach-vorta</p>
+            </label>
+        </fieldset>
+    
+        <p>Follow these instruction
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p><input type="checkbox" name="" id="">Accept terms and condition.</p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>

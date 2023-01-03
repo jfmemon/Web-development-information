@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    padding: 5px 5px;
+}
+
+nav li:hover{
+    background-color: lightgreen;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav > ul{
+    display: flex;
+}
+
+.dropdown{
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+}
+
+.dropdown li{
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+.drop{
+    display: none;
+    position: absolute;
+    background-color: rgb(235, 179, 179);
+    margin: 0;
+    padding: 0;
+}
+
+.drop li{
+    margin: 0;
+    padding: 0 10px;
+}
+
