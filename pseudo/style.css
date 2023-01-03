@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.water{
+    position: relative;
+    top: -100px;
+    z-index: -100;
+}
+
+.boy{
+    position: relative;
+    top: 70px;
+    z-index: 200;
+}

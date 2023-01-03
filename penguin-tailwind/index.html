@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            headerbg: '#FFFBF0',
+            pricecolor: '#FABE4C',
+          }
+        }
+      }
+    }
+  </script>
+  <title>Penguin Tailwind</title>
+</head>
+
+<body>
+  <header class="bg-headerbg pb-28">
+    <section class="container mx-auto px-3 sm:px-20 sm:flex items-center justify-around">
+      <div class="space-y-6">
+        <h1 class="text-2xl sm:text-5xl font-bold">
+          <span class="text-yellow-500 uppercase">Be The Penguins</span>
+          <br>
+          <span class="uppercase">Of Winter</span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ex,et.</p>
+        <button class="uppercase bg-[#A4BC46] py-4 px-10 rounded-lg text-white font-semibold">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 inline">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+          </svg>
+          Buy Now</button>
+      </div>
+      <div class="justify-center pt-14 sm:pt-0">
+        <img class="w-80 sm:w-full mx-auto" src="images/model.png" alt="">
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="container mx-auto px-3 sm:px-20 my-16 pb-10">
+      <h1 class="text-4xl uppercase font-bold my-5">Woman Jacket</h1>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <!--full space for all cards-->
+        <div class="p-5 shadow-lg rounded-lg space-y-4">
+          <!--1st cards space-->
+          <div class=" bg-slate-100 rounded-lg">
+            <img src="images/jacket-1.png" alt="">
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="flex items-center justify-between">
+            <h2 class="text-4xl items-center font-bold text-pricecolor">$250</h2>
+            <button class="uppercase bg-[#A4BC46] py-4 px-10 rounded-lg text-white font-semibold">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              Buy Now</button>
+          </div>
+        </div>
+        <div class="p-5 shadow-lg rounded-lg space-y-4">
+          <!--1st cards space-->
+          <div class=" bg-slate-100 rounded-lg">
+            <img src="images/jacket-2.png" alt="">
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="flex items-center justify-between">
+            <h2 class="text-4xl items-center font-bold text-pricecolor">$250</h2>
+            <button class="uppercase bg-[#A4BC46] py-4 px-10 rounded-lg text-white font-semibold">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              Buy Now</button>
+          </div>
+        </div>
+        <div class="p-5 shadow-lg rounded-lg space-y-4">
+          <!--1st cards space-->
+          <div class=" bg-slate-100 rounded-lg">
+            <img src="images/jacket-3.png" alt="">
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="flex items-center justify-between">
+            <h2 class="text-4xl items-center font-bold text-pricecolor">$250</h2>
+            <button class="uppercase bg-[#A4BC46] py-4 px-10 rounded-lg text-white font-semibold">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-3 sm:px-20 my-16 pb-10">
+      <h1 class="text-4xl uppercase font-bold my-5">Men's Jacket</h1>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <!--full space for all cards-->
+        <div class="p-5 shadow-lg rounded-lg space-y-4">
+          <!--1st cards space-->
+          <div class=" bg-slate-100 rounded-lg">
+            <img src="images/jacket-4.png" alt="">
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="flex items-center justify-between">
+            <h2 class="text-4xl items-center font-bold text-pricecolor">$250</h2>
+            <button class="uppercase bg-[#A4BC46] py-4 px-10 rounded-lg text-white font-semibold">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              Buy Now</button>
+          </div>
+        </div>
+        <div class="p-5 shadow-lg rounded-lg space-y-4">
+          <!--1st cards space-->
+          <div class=" bg-slate-100 rounded-lg">
+            <img src="images/jacket-5.png" alt="">
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="flex items-center justify-between">
+            <h2 class="text-4xl items-center font-bold text-pricecolor">$250</h2>
+            <button class="uppercase bg-[#A4BC46] py-4 px-10 rounded-lg text-white font-semibold">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              Buy Now</button>
+          </div>
+        </div>
+        <div class="p-5 shadow-lg rounded-lg space-y-4">
+          <!--1st cards space-->
+          <div class=" bg-slate-100 rounded-lg">
+            <img src="images/jacket-6.png" alt="">
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="flex items-center justify-between">
+            <h2 class="text-4xl items-center font-bold text-pricecolor">$250</h2>
+            <button class="uppercase bg-[#A4BC46] py-4 px-10 rounded-lg text-white font-semibold">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-3 sm:px-20 my-16 pb-10">
+      <div class="grid lg:grid-cols-2 gap-8">
+        <div class="h-32 flex rounded-2xl items-center justify-between p-6 shadow-xl">
+          <img class="w-20" src="images/house.png" alt="">
+          <div class="space-y-2 p-8">
+            <h2 class="text-xl font-bold">Find the Perfect Fit</h2>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+        <div class="row-span-3 rounded-2xl items-center px-10">
+          <img src="images/shopping.png" alt="">
+        </div>
+        <div class="h-32 flex rounded-2xl items-center justify-between p-6 shadow-xl">
+          <img class="w-20" src="images/box.png" alt="">
+          <div class="space-y-2 p-8">
+            <h2 class="text-xl font-bold">Find the Perfect Fit</h2>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+        <div class="h-32 flex rounded-2xl items-center justify-between p-6 shadow-xl">
+          <img class="w-20" src="images/question.png" alt="">
+          <div class="space-y-2 p-8">
+            <h2 class="text-xl font-bold">Find the Perfect Fit</h2>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
