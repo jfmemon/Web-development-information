@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skip-color {
+    color: rgb(255, 150, 80);
+}
+
+.after-skip {
+    color: rgb(95, 95, 95);
+}
+
+.first-portion-left p {
+    color: gray;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.first-portion {
+    display: flex;
+}
+
+.first-portion-left {
+    padding-left: 8%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    width: 50%;
+}
+
+.first-portion-right {
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.first-portion img {
+    width: 100%;
+
+}
+
+.order-now-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(253, 155, 90), rgb(248, 63, 38));
+    padding: 3.5%;
+    border-radius: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.second-portion {
+    display: flex;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.second-portion img {
+    width: 46%;
+    padding-left: 25%;
+    position: relative;
+    top: 7px;
+}
+
+.second-portion-right {
+    width: 50%;
+    padding-right: 15%;
+}
+
+.second-portion-right h2 {
+    font-size: 38px;
+    color: rgb(95, 95, 95);
+}
+
+.second-portion-right p {
+    color: rgb(95, 95, 95);
+}
+
+.contact-me-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(253, 155, 90), rgb(248, 63, 38));
+    padding: 4%;
+    border-radius: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.third-portion {
+    margin-top: 6%;
+}
+
+.third-portion h1 {
+    font-size: 38px;
+    color: rgb(95, 95, 95);
+}
+
+.third-portion-top {
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+
+.third-portion-recipies {
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: -3%;
+}
+
+.third-portion-first-recipie {
+    width: 33.33%;
+    padding: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 4%;
+    margin-right: 2%;
+}
+
+.third-portion-second-recipie {
+    width: 33.33%;
+    padding: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.third-portion-third-recipie {
+    width: 33.33%;
+    padding: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 4%;
+    margin-left: 2%;
+}
+
+.third-portion-first-recipie img {
+    width: 100%;
+}
+
+.third-portion-second-recipie img {
+    width: 100%;
+}
+
+.third-portion-third-recipie img {
+    width: 100%;
+}
+
+.food-definition-color {
+    color: rgb(95, 95, 95);
+}
+
+.fourth-portion {
+    display: flex;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 8%;
+    border-radius: 20px;
+    padding: 2.6%;
+}
+
+.youtube {
+    width: 33.33%;
+}
+
+.youtube h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(95, 95, 95);
+}
+
+.youtube p {
+    color: rgb(95, 95, 95);
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 7%;
+    padding-top: 1.8%;
+    background-color: #0e0e1a;
+}
+
+.food-color {
+    font-weight: 800;
+    color: rgb(255, 150, 80);
+}
+
+.network-color {
+    color: rgb(95, 95, 95);
+    font-weight: 800;
+}
+
+footer p{
+    color: white;
+}
