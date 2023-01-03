@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px dotted burlywood;
+            height: 400px;
+        }
+        #box-1{
+            flex-grow: 1;
+            order: 2;
+        }
+
+        #box-2{
+            order: 1;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px dashed black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is flexbox right now.</h1>
+    <div class="container">
+        <div id="box-1" class="box">
+            <h3>box 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem repellat fugiat facere ab cupiditate tempora laboriosam, fuga consequuntur nemo nisi!</p>
+        </div>
+        <div id="box-2" class="box">
+            <h3>box 2</h3>
+            <p>Dolore sint id exercitationem ullam, aliquam fugit amet magni maxime, cumque, enim pariatur tempora nesciunt libero ab repellat ea tempore.</p>
+        </div>
+    </div>
+</body>
+</html>

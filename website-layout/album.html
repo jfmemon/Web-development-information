@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <link rel="shortcut icon" href="images/kate-winslet.jpg" type="image/x-icon">
+    <style>
+        h1{
+            background-color: black;
+            color: white;
+        }
+        .photo-album{
+            /* border: 2px solid red; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame {
+            width: 300px;
+            height: 200px;
+            /* border: 2px solid lightblue; */
+            padding: 5px;
+            border-radius: 5px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 5px;
+            /* overflow: hidden; */
+        }
+
+        .photo-detail{
+            position: absolute;
+            width: 300px;
+            top: 0;
+            padding: 5px;
+            display: none;
+            color: white;
+        }
+
+        .photo-detail h3{
+            background-color: black;
+            width: 250px;
+        }
+
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(222, 184, 135, 0.233);
+        }
+
+        .photo-frame:hover .photo{
+            transform: scale(1.5) rotate(360deg);
+            transition: transform 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a photo frame of kate Winslet.</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/kate-winslet.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is kate-winslet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quod expedita facilis! Eum
+                    dolorum incidunt fugiat atque, doloribus cupiditate doloremque sunt optio pariatur error ea.
+                    .</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
