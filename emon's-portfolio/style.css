@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    font-family: 'Baloo 2', cursive;
+}
+
+.lio{
+    color: #62e5ff;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.port{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.btn{
+    background-color: #62e5ff;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.hello{
+    color: #fcfc;
+}
+
+.ferdous{
+    color: #62e5ff;
+}
+
+.jannatul{
+    color: white;
+}
+
+.developer{
+    color: white;
+}
+
+.about-me-para{
+    color: #fcfc;
+}
+
+.about-me-fullstack{
+    color: #62e5ff;
+}
+
+.skills{
+    background-color: #62e5ff;
+}
+
+.n-hov:hover{
+    background-color: #62e5ff;
+    border-radius: 20px;
+}
