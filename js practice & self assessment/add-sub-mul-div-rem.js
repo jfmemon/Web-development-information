@@ -1,0 +1,12 @@
+const number1 = 10;
+const  number2 = 20;
+sum = number1 + number2;
+console.log(sum);
+sub = number1 - number2;
+console.log(sub);
+mul = number1 * number2;
+console.log(mul);
+div = number1 / number2;
+console.log(div);
+rem = number1 % number2;
+console.log(rem);
